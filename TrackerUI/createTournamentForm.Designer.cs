@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.createTournamentLabel = new System.Windows.Forms.Label();
             this.tournamentNameValue = new System.Windows.Forms.TextBox();
             this.tournamentNameLabel = new System.Windows.Forms.Label();
             this.entryFeeValue = new System.Windows.Forms.TextBox();
@@ -47,17 +47,17 @@
             this.createTournamentButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // createTournamentLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.14286F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(28, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(463, 65);
-            this.label1.TabIndex = 1;
-            this.label1.Tag = "HeaderLabel";
-            this.label1.Text = "Create Tournament";
+            this.createTournamentLabel.AutoSize = true;
+            this.createTournamentLabel.Font = new System.Drawing.Font("Segoe UI", 20.14286F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.createTournamentLabel.ForeColor = System.Drawing.SystemColors.Control;
+            this.createTournamentLabel.Location = new System.Drawing.Point(28, 42);
+            this.createTournamentLabel.Name = "createTournamentLabel";
+            this.createTournamentLabel.Size = new System.Drawing.Size(463, 65);
+            this.createTournamentLabel.TabIndex = 1;
+            this.createTournamentLabel.Tag = "HeaderLabel";
+            this.createTournamentLabel.Text = "Create Tournament";
             // 
             // tournamentNameValue
             // 
@@ -183,7 +183,7 @@
             this.prizesLabel.AutoSize = true;
             this.prizesLabel.Location = new System.Drawing.Point(575, 456);
             this.prizesLabel.Name = "prizesLabel";
-            this.prizesLabel.Size = new System.Drawing.Size(77, 29);
+            this.prizesLabel.Size = new System.Drawing.Size(66, 25);
             this.prizesLabel.TabIndex = 22;
             this.prizesLabel.Text = "Prizes";
             // 
@@ -206,7 +206,7 @@
             this.createTournamentButton.Text = "Create Tournament";
             this.createTournamentButton.UseVisualStyleBackColor = true;
             // 
-            // createTournamentForm
+            // CreateTournamentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -228,9 +228,9 @@
             this.Controls.Add(this.entryFeeLabel);
             this.Controls.Add(this.tournamentNameValue);
             this.Controls.Add(this.tournamentNameLabel);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.createTournamentLabel);
             this.ForeColor = System.Drawing.SystemColors.Control;
-            this.Name = "createTournamentForm";
+            this.Name = "CreateTournamentForm";
             this.Text = "Create Tournament";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -239,7 +239,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label createTournamentLabel;
         private System.Windows.Forms.TextBox tournamentNameValue;
         private System.Windows.Forms.Label tournamentNameLabel;
         private System.Windows.Forms.TextBox entryFeeValue;
